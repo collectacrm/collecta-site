@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-09-23 08:00:00
+title: An Example Blog Post
+date: {}
 categories: collecta crm blog
+published: true
 ---
 
 This is an example blog post in the `_posts/blog` directory - edit this post.
