@@ -1,7 +1,6 @@
 ---
 layout: post
 title: An Example Blog Post
-date: {}
 categories: crm
 published: true
 ---
