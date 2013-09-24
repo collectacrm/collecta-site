@@ -11,8 +11,7 @@ function cidr_match($ip, $ranges) {
 $github_cidrs = array('204.232.175.64/27', '192.30.252.0/22');
  
 if(cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
-  $dir = '/home/collecta/deployer/';
-  exec("git fetch --all")
+  exec("git fetch --all");
   exec("git reset --hard origin/master");
   echo 'Done.';
 } else {
