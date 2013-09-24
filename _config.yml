@@ -6,3 +6,77 @@ prose:
   siteurl: "http://collecta.co.uk"
   media: "media"
   rooturl: '_posts'
+  metadata: 
+    _posts/blog:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "meta-title"
+        field:
+          element: "text"
+          label: "Meta Title"
+          value: ""
+      - name: "meta-description"
+        field:
+          element: "text"
+          label: "Meta Description"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "seo-keywords"
+        field:
+          element: "text"
+          label: "SEO Keywords"
+          value: ""
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Select a layout"
+          placeholder: "Default"
+          options:
+            - name: "blog"
+              value: "blog"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value:
+            - "blog"
+    _posts/pages:
+     - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "meta-title"
+        field:
+          element: "text"
+          label: "Meta Title"
+          value: ""
+      - name: "meta-description"
+        field:
+          element: "text"
+          label: "Meta Description"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "seo-keywords"
+        field:
+          element: "text"
+          label: "SEO Keywords"
+          value: ""
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Select a layout"
+          placeholder: "Default"
+          options:
+            - name: "blog"
+              value: "blog"
