@@ -1,3 +1,5 @@
 name: Collecta UK
 markdown: redcarpet
 pygments: true
+siteurl: "http://collecta.co.uk"
+media: "media"
