@@ -23,7 +23,7 @@ This is a paragraph. It has two sentences.
 This is another paragraph. It also has 
 two sentences.
 
-Jekyll also offers powerful support for code snippets:
+There is also some support for code snippets:
 
 {% highlight ruby %}
 def print_hi(name)
