@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "An Example About Page"
-date:   2013-09-23 08:00:00
 categories: collecta crm
 ---
 
