@@ -1,2 +1,2 @@
 #!/bin/sh
-git fetch --all; git reset --hard origin/master;
+cd /home/collecta/deployer; /usr/bin/git fetch --all; /usr/bin/git reset --hard origin/master;
