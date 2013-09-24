@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Example Blog Post
-date: {}
+date: {2013-09-23 08:00:00}
 categories: crm
 published: true
 ---
