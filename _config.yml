@@ -54,18 +54,8 @@ prose:
           element: "text"
           label: "Meta Description"
           value: ""
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
       - name: "seo-keywords"
         field:
           element: "text"
           label: "SEO Keywords"
           value: ""
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Select a layout"
-          placeholder: "Default"
