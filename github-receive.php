@@ -12,7 +12,7 @@ $github_cidrs = array('204.232.175.64/27', '192.30.252.0/22');
  
 if(cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
   error_log("[WEBHOOK] Received github request as ".date("d j Y H:i:s"));
-  shell_exec("/home/collecta/deployer/deploy.sh");
+  shell_exec("sudo -u collecta /home/collecta/deployer/deploy.sh");
   echo 'Done.';
 } else {
   header('HTTP/1.1 404 Not Found');
