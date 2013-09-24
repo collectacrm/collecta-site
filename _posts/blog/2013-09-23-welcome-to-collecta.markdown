@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Example Blog Post
-date: 2013-09-23 08:00:00
+date: {}
 categories: crm
 published: true
 ---
@@ -22,6 +22,9 @@ This is a paragraph. It has two sentences.
 
 This is another paragraph. It also has 
 two sentences.
+
+Here is an image uploaded via the editor:
+![Nay](/media/Horse.jpg)
 
 There is also some support for code snippets:
 
