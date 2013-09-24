@@ -47,7 +47,7 @@ prose:
           value:
             - "blog"
     _posts/pages:
-     - name: "title"
+      - name: "title"
         field:
           element: "text"
           label: "Title"
