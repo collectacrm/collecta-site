@@ -1,6 +1,8 @@
 name: Collecta UK
 markdown: redcarpet
 pygments: true
-siteurl: "http://collecta.co.uk"
-media: "media"
-rooturl: '_posts'
+
+prose:
+  siteurl: "http://collecta.co.uk"
+  media: "media"
+  rooturl: '_posts'
