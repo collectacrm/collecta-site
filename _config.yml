@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 siteurl: "http://collecta.co.uk"
 media: "media"
+rooturl: '_posts'
