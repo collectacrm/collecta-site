@@ -2,7 +2,7 @@
 layout: post
 title: An Example Blog Post
 date: {}
-categories: collecta crm blog
+categories: crm
 published: true
 ---
 
