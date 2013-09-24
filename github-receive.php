@@ -13,7 +13,7 @@ $github_cidrs = array('204.232.175.64/27', '192.30.252.0/22');
  
 if(in_array($_SERVER['REMOTE_ADDR'], $github_ips) || cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
   $dir = '/home/collecta/deployer/';
-  exec("cd $dir && git pull");
+  exec("cd $dir; git fetch --all; git reset --hard origin/master");
   echo 'Done.';
 } else {
   header('HTTP/1.1 404 Not Found');
