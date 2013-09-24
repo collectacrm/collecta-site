@@ -35,17 +35,9 @@ prose:
           value: ""
       - name: "layout"
         field:
-          element: "select"
-          label: "Select a layout"
-          placeholder: "Default"
-          options:
-            - name: "blog"
-              value: "blog"
-      - name: "categories"
-        field:
           element: "hidden"
-          value:
-            - "blog"
+          value: "blog"
+      - name: "categories"
     _posts/pages:
       - name: "title"
         field:
