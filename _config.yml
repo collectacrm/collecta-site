@@ -1,6 +1,7 @@
 name: Collecta UK
 markdown: redcarpet
 pygments: true
+exclude: ["deploy.sh","github-receive.php", "node_modules"]
 
 prose:
   siteurl: "http://collecta.co.uk"
