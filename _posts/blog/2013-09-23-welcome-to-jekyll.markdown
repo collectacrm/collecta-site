@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-09-23 08:00:00
-categories: collecta crm blog
 ---
 
 This is an example blog post in the `_posts/blog` directory - edit this post.
