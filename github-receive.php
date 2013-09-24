@@ -15,7 +15,8 @@ if(cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
   exec("git reset --hard origin/master");
   echo 'Done.';
 } else {
-  header('HTTP/1.1 404 Not Found');
-  echo '404 Not Found.';
+  //header('HTTP/1.1 404 Not Found');
+  //echo '404 Not Found.';
+  echo exec("git status");
   exit;
 }
