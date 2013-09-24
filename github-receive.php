@@ -16,7 +16,6 @@ if(cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
   echo 'Done.';
 } else {
   header('HTTP/1.1 404 Not Found');
-  echo exec('whoami');
   echo '404 Not Found.';
   exit;
 }
