@@ -18,6 +18,7 @@ if(cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
 } else {
   //header('HTTP/1.1 404 Not Found');
   //echo '404 Not Found.';
-  echo exec("cd $dir; /usr/bin/git status");
+  //echo exec("cd $dir; /usr/bin/git status");
+  echo exec("ls");
   exit;
 }
