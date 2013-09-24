@@ -24,7 +24,7 @@ This is another paragraph. It also has
 two sentences.
 
 Here is an image uploaded via the editor:
-![Nay](/media/Horse.jpg)
+![Horsey](/media/Horse.jpg)
 
 There is also some support for code snippets:
 
