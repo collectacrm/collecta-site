@@ -37,7 +37,6 @@ prose:
         field:
           element: "hidden"
           value: "blog"
-      - name: "categories"
     _posts/pages:
       - name: "title"
         field:
