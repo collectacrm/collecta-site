@@ -12,13 +12,11 @@ $github_cidrs = array('204.232.175.64/27', '192.30.252.0/22');
  
 if(cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
   $dir = '/home/collecta/deployer/';
-  exec("cd $dir; /usr/bin/git fetch --all; /usr/bin/git reset --hard origin/master");
-  error_log("[SUCCESS] ".print_r($_POST, 1));
+  exec("git fetch --all")
+  exec("git reset --hard origin/master");
   echo 'Done.';
 } else {
-  //header('HTTP/1.1 404 Not Found');
-  //echo '404 Not Found.';
-  //echo exec("cd $dir; /usr/bin/git status");
-  echo exec("pwd");
+  header('HTTP/1.1 404 Not Found');
+  echo '404 Not Found.';
   exit;
 }
