@@ -77,6 +77,3 @@ prose:
           element: "select"
           label: "Select a layout"
           placeholder: "Default"
-          options:
-            - name: "blog"
-              value: "blog"
