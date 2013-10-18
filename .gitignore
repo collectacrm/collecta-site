@@ -4,3 +4,5 @@ _site
 tmp/session/*
 tmp/log/*
 tmp/cache/*
+node_modules
+public/build
