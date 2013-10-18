@@ -1,0 +1,24 @@
+{
+    "name": "collecta/site",
+    "description": "Main Website for collecta.co.uk",
+    "license": "Proprietary",
+    "authors": [
+        {"name": "Ross Riley",      "email": "ross@collecta.co.uk"},
+        {"name": "Charles Marshall","email": "charles@collecta.co.uk"}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "stack/builder": "dev-master",
+        "stack/url-map": "dev-master",
+        "phpwax/phpwax": "3.2.*",
+        "phpwax/wildfire": "7.1.*",
+        "phpwax/wildfire.interface": "7.1.*",
+        "phpwax/wildfire.redirects": "7.1.*",
+        "phpwax/wildfire.navigation": "7.1.*",
+        "phpwax/stackapp": "dev-master"
+    },
+
+    "autoload": {
+      "psr-0": { "": "./src/" }
+    }
+}
