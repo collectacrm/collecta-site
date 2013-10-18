@@ -1,3 +1,6 @@
 _site
 /vendor/
 .DS_*
+tmp/session/*
+tmp/log/*
+tmp/cache/*
