@@ -18,7 +18,7 @@ $media = new Wildfire\Media();
 $media->setConfig($conf."$env.php");
 
 $map = [
-    "/admin" => $admin,
+    "/wp-login" => $admin,
     "/m"     => $media,
     "/build" => $media
 ];

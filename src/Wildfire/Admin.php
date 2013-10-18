@@ -12,9 +12,9 @@ class Admin extends Wax {
     parent::route($request);
     if(!defined("CONTENT_MODEL")) define("CONTENT_MODEL","WildfireContent");
     \WaxUrl::$autoload = true;
-    \WaxUrl::map("admin/:controller", array());
-    \WaxUrl::map("admin/:controller/:action", array());
-    \WaxUrl::map("admin/:controller/:action/:id", array());
+    \WaxUrl::map("wp-login/:controller", array());
+    \WaxUrl::map("wp-login/:controller/:action", array());
+    \WaxUrl::map("wp-login/:controller/:action/:id", array());
     \WaxUrl::perform_mappings();
   }
 
