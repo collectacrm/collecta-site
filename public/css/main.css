@@ -121,21 +121,25 @@ h4 {
 }
 
 #signup {
-  background: url(/images/floppy.png) no-repeat center left;
+  background: url(/images/floppy.png) no-repeat top left;
   padding-left:70px;
+  overflow: hidden;
 }
 #signup p {
-  width:36%;
+  width:30%;
+  float:left;
+  margin-right:10px;
 }
 #signup .button {
   float:right;
   box-shadow: 5px 5px 0px #353535;
   font-size: 13px;
-  margin-top:8px;
+  margin-top:5px;
 }
 #signup .text_input {
-  float:right;
-  width:45%;
-  margin-right: 30px;
+  display: inline-block;
+  width:17%;
+  margin-right: 10px;
   margin-top:8px;
+  min-width: 100px;
 }
