@@ -114,4 +114,6 @@ h4 {
 }
 #signup .button {
   float:right;
+  background-color: #f4b42b;
+  border-radius: 5px;
 }
