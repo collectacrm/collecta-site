@@ -15,10 +15,14 @@
         "phpwax/wildfire.interface": "7.1.*",
         "phpwax/wildfire.redirects": "7.1.*",
         "phpwax/wildfire.navigation": "7.1.*",
-        "phpwax/stackapp": "dev-master"
+        "phpwax/stackapp": "dev-master",
+        "oneblackbear/roman-numbers": "dev-master"
     },
 
     "autoload": {
-      "psr-0": { "": "./src/" }
+      "psr-0": { "": "./src/" },
+      "files": [
+        "src/site/sitehelper.php"
+      ]
     }
 }

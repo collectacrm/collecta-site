@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "dec48e915a66347aa318736358fdcf34",
+    "hash": "47c5d9547c287974ed5c8df8d8261520",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -47,6 +47,50 @@
                 "minification"
             ],
             "time": "2012-09-19 17:17:54"
+        },
+        {
+            "name": "oneblackbear/roman-numbers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oneblackbear/RomanNumbers.git",
+                "reference": "08600cc95c15ec71b8ce729cbf06991e20dc9f33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oneblackbear/RomanNumbers/zipball/08600cc95c15ec71b8ce729cbf06991e20dc9f33",
+                "reference": "08600cc95c15ec71b8ce729cbf06991e20dc9f33",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen De Dauw",
+                    "email": "jeroendedauw@gmail.com",
+                    "homepage": "http://jeroendedauw.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Roman number formatter",
+            "homepage": "https://github.com/JeroenDeDauw/RomanNumbers",
+            "keywords": [
+                "roman",
+                "roman number",
+                "roman numeral"
+            ],
+            "time": "2013-10-19 01:11:02"
         },
         {
             "name": "phpwax/asset",
@@ -868,7 +912,8 @@
     "stability-flags": {
         "stack/builder": 20,
         "stack/url-map": 20,
-        "phpwax/stackapp": 20
+        "phpwax/stackapp": 20,
+        "oneblackbear/roman-numbers": 20
     },
     "platform": [
 
