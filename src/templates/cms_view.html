@@ -1,0 +1,16 @@
+  <div class="large-5 columns page_meta">
+    <h1><?=$cms_content->title?></h1>
+    <h4><?=\site\output_date($cms_content->date_start)?></h4>
+    <div class="sharers">
+      <span><a href="http://www.youtube.com/watch?v=5Uu3kCEEc98#t=29">Cher:</a></span>
+      <a href="#"><img src="/images/twitter.png" alt="Twitter Share"></a>
+      <a href="#"><img src="/images/facebook.png" alt="Facebook Share"></a>
+      <a href="#"><img src="/images/google.png" alt="G+ Share"></a>
+      <a href="#"><img src="/images/linked.png" alt="LinkedIn Share"></a>
+    </div>
+  </div>
+  <div class="large-7 columns">
+    <div class="content_block">
+      <?=$cms_content->format_content()?>
+    </div>
+  </div>
