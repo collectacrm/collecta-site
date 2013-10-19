@@ -427,12 +427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.media.git",
-                "reference": "d4fc0b3821d3c2a5c9f48a989dc16b27448f3cc3"
+                "reference": "3e966fb2463a6adb42257aba4a01db0dd9162ad0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.media/zipball/d4fc0b3821d3c2a5c9f48a989dc16b27448f3cc3",
-                "reference": "d4fc0b3821d3c2a5c9f48a989dc16b27448f3cc3",
+                "url": "https://api.github.com/repos/phpwax/wildfire.media/zipball/3e966fb2463a6adb42257aba4a01db0dd9162ad0",
+                "reference": "3e966fb2463a6adb42257aba4a01db0dd9162ad0",
                 "shasum": ""
             },
             "require": {
@@ -458,7 +458,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-10-19 21:19:39"
+            "time": "2013-10-19 21:33:18"
         },
         {
             "name": "phpwax/wildfire.navigation",
