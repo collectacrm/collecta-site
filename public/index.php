@@ -4,12 +4,14 @@ use Symfony\Component\HttpFoundation\Request;
 error_reporting(247);
 $base = dirname(__DIR__);
 define("SESSION_DIR", $base."/tmp/session/");
+define("VIEW_DIR", $base."/src/templates/");
 
 require_once('../vendor/autoload.php');
 $conf = $base."/config/";
 
 
 $env = $_SERVER["ENV"] ?: "production";
+
 $app = new Wildfire\Application();
 $app->setConfig($conf."$env.php");
 $admin = new Wildfire\Admin();
@@ -26,7 +28,6 @@ $map = [
 $app = (new Stack\Builder())
         ->push('Stack\UrlMap', $map)
         ->resolve($app);
-
 
 $request = Request::createFromGlobals();
 $response = $app->handle($request);

@@ -5,9 +5,9 @@ namespace Wildfire;
 */
 class CmsController extends \CMSApplicationController {
   
-  public function controller_global() {
+  public function controller_global() {  
     $basedir = getcwd();
-    \Autoloader::register_view_path("user", $basedir."/templates/");
+    \Autoloader::register_view_path("user", $basedir."/../src/templates/");
     $this->cms();
     $this->cms_stacks();
   }
