@@ -21,5 +21,10 @@ class CmsController extends \CMSApplicationController {
       $obj->cms_throw_missing_view = false;
     });
   }
-  
+
+  public function index() {
+
+  }
+
+
 }

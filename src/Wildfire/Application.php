@@ -9,8 +9,9 @@ class Application extends Wax {
 
   public function route($request) {
     parent::route($request);
-    \WaxUrl::map("", array("controller"=>"Wildfire\ Cms"));
+    \WaxUrl::map("", array("controller"=>"Wildfire\ Cms","action"=>"index"));
     \WaxUrl::map(":action", array("controller"=>"Wildfire\ Cms"));
+    \WaxUrl::map(":action/:id", array("controller"=>"Wildfire\ Cms"));
   }
   
 }
