@@ -94,3 +94,24 @@ h4 {
   font-weight: 300;
 }
 
+
+.footer_wrapper {
+  position:fixed;
+  bottom:0;
+  background: #3b3b3b;
+  min-height:60px;
+  width:100%;
+  color:#FFF;
+  padding-top:10px;
+}
+
+#signup {
+  background: url(/images/floppy.png) no-repeat center left;
+  padding-left:70px;
+}
+#signup p {
+  width:36%;
+}
+#signup .button {
+  float:right;
+}
