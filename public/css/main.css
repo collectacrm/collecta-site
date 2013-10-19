@@ -37,3 +37,60 @@ ul.posts span {
 /* Collecta Styles
 /*
 /*****************************************************************************/
+
+body {
+  background: url(/images/layout/bg.png) repeat-x;
+}
+.container {
+  padding-top:60px;
+}
+.page_meta {
+  text-align: right;
+}
+.nav {
+  float: right;
+}
+.nav li {
+  float:left;
+  margin-left:20px;
+  list-style: none;
+}
+.nav li a {
+  color:#FFF;
+  text-transform: uppercase;
+}
+.row.content {
+  padding-top:40px;
+}
+.content_block {
+  clear:both;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  color:white;
+  font-weight:100;
+  margin:0;
+}
+h4 {
+  font-size:13px;
+  font-weight:400;
+  margin:0;
+}
+.sharers {
+  margin-top:8px;
+  font-size:12px;
+  text-transform: uppercase;
+}
+.sharers span a {
+  line-height:35px;
+    color:#3258be;
+    vertical-align: middle;
+}
+
+.content_block,
+.content_block p {
+  color:#FFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
