@@ -5,8 +5,8 @@
 /*****************************************************************************/
 
 
-html, body { 
-  background-color:#4c84f1; 
+html, body {
+  background-color:#4c84f1;
   font-family: 'Lato', sans-serif;
 }
 ul {list-style-position:inside;}
@@ -109,6 +109,18 @@ h4 {
   font-weight: 300;
 }
 
+
+a{
+  color:#3b3b3b;
+}
+p a.button{
+  padding:10px;
+  font-size:12px;
+}
+a.button .action{
+  display:inline-block;
+  padding-right:8px;
+}
 
 .footer_wrapper {
   position:fixed;
