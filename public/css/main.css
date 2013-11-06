@@ -109,7 +109,9 @@ h4 {
   font-weight: 300;
 }
 
-
+code{
+  color:#fff;
+}
 a{
   color:#3b3b3b;
 }
