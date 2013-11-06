@@ -115,6 +115,7 @@ code{
 code.block,
 pre.block{
   display:block;
+  margin-bottom:1.25em;
 }
 a{
   color:#3b3b3b;
