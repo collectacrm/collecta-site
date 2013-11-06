@@ -14,6 +14,7 @@
         "phpwax/wildfire": "7.1.*",
         "phpwax/wildfire.interface": "7.1.*",
         "phpwax/wildfire.redirects": "7.1.*",
+        "phpwax/wildfire.meta": "7.1.*",
         "phpwax/wildfire.navigation": "7.1.*",
         "phpwax/stackapp": "dev-master",
         "oneblackbear/roman-numbers": "dev-master"
