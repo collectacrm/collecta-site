@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "47c5d9547c287974ed5c8df8d8261520",
+    "hash": "e1122275ff90a4de2f6da69052d9b5f5",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -161,12 +161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/phpwax.git",
-                "reference": "4257218f224d5dc4eb29bcfb5869e87547914481"
+                "reference": "e3083414154b3acfd4b1b32da8ac85e4592bf8a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/phpwax/zipball/4257218f224d5dc4eb29bcfb5869e87547914481",
-                "reference": "4257218f224d5dc4eb29bcfb5869e87547914481",
+                "url": "https://api.github.com/repos/phpwax/phpwax/zipball/e3083414154b3acfd4b1b32da8ac85e4592bf8a0",
+                "reference": "e3083414154b3acfd4b1b32da8ac85e4592bf8a0",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
                 }
             ],
             "description": "The Full Stack Version of the PHP Wax Framework",
-            "time": "2013-10-03 05:42:09"
+            "time": "2013-10-22 14:20:00"
         },
         {
             "name": "phpwax/stackapp",
@@ -218,12 +218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/stackapp.git",
-                "reference": "924f40b9ed49b2a6cc1a7430cc5adb2fc7976700"
+                "reference": "d17211d341cff08e1bfc9cf06c2bfba3ac2a6d64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/924f40b9ed49b2a6cc1a7430cc5adb2fc7976700",
-                "reference": "924f40b9ed49b2a6cc1a7430cc5adb2fc7976700",
+                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/d17211d341cff08e1bfc9cf06c2bfba3ac2a6d64",
+                "reference": "d17211d341cff08e1bfc9cf06c2bfba3ac2a6d64",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
             ],
             "description": "PHP Wax Stack app",
             "homepage": "http://php-wax.com",
-            "time": "2013-10-18 16:10:32"
+            "time": "2013-11-04 16:30:35"
         },
         {
             "name": "phpwax/wildfire",
@@ -266,12 +266,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.git",
-                "reference": "85b879203d39ef16e1f236a2b05b8821954e3936"
+                "reference": "417496bfe7ef22f127bf71d515e2915fdade95a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire/zipball/85b879203d39ef16e1f236a2b05b8821954e3936",
-                "reference": "85b879203d39ef16e1f236a2b05b8821954e3936",
+                "url": "https://api.github.com/repos/phpwax/wildfire/zipball/417496bfe7ef22f127bf71d515e2915fdade95a0",
+                "reference": "417496bfe7ef22f127bf71d515e2915fdade95a0",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +310,7 @@
                 }
             ],
             "description": "Wildfire CMS Framework",
-            "time": "2013-09-10 14:02:03"
+            "time": "2013-11-06 08:33:00"
         },
         {
             "name": "phpwax/wildfire.cms_users",
@@ -354,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.content.git",
-                "reference": "8e2addca026b0d54a64e86ef556cb63b4d0763f0"
+                "reference": "7083f02c121e06c8fc1bfa3918b0cee1c6ab4b28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.content/zipball/8e2addca026b0d54a64e86ef556cb63b4d0763f0",
-                "reference": "8e2addca026b0d54a64e86ef556cb63b4d0763f0",
+                "url": "https://api.github.com/repos/phpwax/wildfire.content/zipball/7083f02c121e06c8fc1bfa3918b0cee1c6ab4b28",
+                "reference": "7083f02c121e06c8fc1bfa3918b0cee1c6ab4b28",
                 "shasum": ""
             },
             "type": "library",
@@ -383,7 +383,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-10-16 11:56:00"
+            "time": "2013-11-05 21:08:27"
         },
         {
             "name": "phpwax/wildfire.interface",
@@ -391,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.interface.git",
-                "reference": "9e47518de3a3e2467be9b1f5e9434eed8bb0cf86"
+                "reference": "e54fe4241aa2c0dad0d28fbd2477c7c808f8fe71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.interface/zipball/9e47518de3a3e2467be9b1f5e9434eed8bb0cf86",
-                "reference": "9e47518de3a3e2467be9b1f5e9434eed8bb0cf86",
+                "url": "https://api.github.com/repos/phpwax/wildfire.interface/zipball/e54fe4241aa2c0dad0d28fbd2477c7c808f8fe71",
+                "reference": "e54fe4241aa2c0dad0d28fbd2477c7c808f8fe71",
                 "shasum": ""
             },
             "type": "library",
@@ -419,7 +419,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-10-16 16:19:33"
+            "time": "2013-11-05 18:56:13"
         },
         {
             "name": "phpwax/wildfire.media",
@@ -427,12 +427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.media.git",
-                "reference": "15a37194e12a66cf5453f819704262f41ffa6cce"
+                "reference": "9b167b85ef36a1f058e7c3e434c0e5ad0c7547cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.media/zipball/15a37194e12a66cf5453f819704262f41ffa6cce",
-                "reference": "15a37194e12a66cf5453f819704262f41ffa6cce",
+                "url": "https://api.github.com/repos/phpwax/wildfire.media/zipball/9b167b85ef36a1f058e7c3e434c0e5ad0c7547cc",
+                "reference": "9b167b85ef36a1f058e7c3e434c0e5ad0c7547cc",
                 "shasum": ""
             },
             "require": {
@@ -458,7 +458,39 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-10-19 21:36:50"
+            "time": "2013-11-06 08:28:39"
+        },
+        {
+            "name": "phpwax/wildfire.meta",
+            "version": "7.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpwax/wildfire.meta.git",
+                "reference": "39447e0970281404218cedf44eb60b09c567874f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpwax/wildfire.meta/zipball/39447e0970281404218cedf44eb60b09c567874f",
+                "reference": "39447e0970281404218cedf44eb60b09c567874f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ini.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charles Marshall",
+                    "email": "charles@oneblackbear.com"
+                }
+            ],
+            "time": "2013-06-20 08:11:38"
         },
         {
             "name": "phpwax/wildfire.navigation",
@@ -577,21 +609,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackphp/builder.git",
-                "reference": "ed6db737187e31cc1f4d17b45cbd73b0334232e9"
+                "reference": "49ab90450d7f959943f3659a4bcb5965530117c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackphp/builder/zipball/ed6db737187e31cc1f4d17b45cbd73b0334232e9",
-                "reference": "ed6db737187e31cc1f4d17b45cbd73b0334232e9",
+                "url": "https://api.github.com/repos/stackphp/builder/zipball/49ab90450d7f959943f3659a4bcb5965530117c2",
+                "reference": "49ab90450d7f959943f3659a4bcb5965530117c2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
+                "php": ">=5.3.0",
                 "symfony/http-foundation": "~2.1",
                 "symfony/http-kernel": "~2.1"
             },
             "require-dev": {
-                "silex/silex": "1.0.*@dev"
+                "silex/silex": "~1.0"
             },
             "type": "library",
             "extra": {
@@ -619,7 +651,7 @@
             "keywords": [
                 "stack"
             ],
-            "time": "2013-08-02 13:05:55"
+            "time": "2013-10-25 14:04:45"
         },
         {
             "name": "stack/url-map",
@@ -678,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "10236d7c34e135a9e0879b62a443e3870ce639c6"
+                "reference": "d0677a68259c45b0ef737dd726f9a2962e01746b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/10236d7c34e135a9e0879b62a443e3870ce639c6",
-                "reference": "10236d7c34e135a9e0879b62a443e3870ce639c6",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/d0677a68259c45b0ef737dd726f9a2962e01746b",
+                "reference": "d0677a68259c45b0ef737dd726f9a2962e01746b",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +756,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-16 11:59:56"
+            "time": "2013-10-30 08:31:46"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -787,12 +819,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "8f383fa5e4b66b66ba2d09e502e8bf73bdd04901"
+                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8f383fa5e4b66b66ba2d09e502e8bf73bdd04901",
-                "reference": "8f383fa5e4b66b66ba2d09e502e8bf73bdd04901",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/1bee3412d9ff603a9ed1cce305c0becbd735c307",
+                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +860,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-17 11:48:01"
+            "time": "2013-10-30 08:28:22"
         },
         {
             "name": "symfony/http-kernel",
@@ -837,12 +869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "cc1dab5ef88e9bdaa6e5e0b4df921ab0d793f68d"
+                "reference": "9795c9f67c72a96be0535f6987a94a07e5ff2432"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/cc1dab5ef88e9bdaa6e5e0b4df921ab0d793f68d",
-                "reference": "cc1dab5ef88e9bdaa6e5e0b4df921ab0d793f68d",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/9795c9f67c72a96be0535f6987a94a07e5ff2432",
+                "reference": "9795c9f67c72a96be0535f6987a94a07e5ff2432",
                 "shasum": ""
             },
             "require": {
@@ -899,7 +931,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-10 14:16:40"
+            "time": "2013-10-30 08:30:20"
         }
     ],
     "packages-dev": [
