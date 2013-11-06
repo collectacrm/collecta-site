@@ -182,6 +182,9 @@ samp {
 code.block{
   margin-bottom:1.25em;
 }
+code{
+  color:#fff;
+}
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
