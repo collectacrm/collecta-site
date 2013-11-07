@@ -6,7 +6,7 @@ if(!$share_copy = $cms_content->share_copy) $share_copy = "Read about '".$cms_co
     <h1><?=$cms_content->title?></h1>
     <h4><?=\site\output_date($cms_content->date_start)?></h4>
     <div class="sharers">
-      <span><a href="http://www.youtube.com/watch?v=5Uu3kCEEc98#t=29">Share:</a></span>
+      <span><a href="http://www.youtube.com/watch?v=5Uu3kCEEc98#t=29" title="CHER">Cher:</a></span>
       <a href="http://twitter.com/share?text=<?=urlencode($share_copy)?>"><img src="/images/twitter.png" alt="Twitter Share"></a>
       <a href="http://www.facebook.com/sharer.php?u=<?=$server.$cms_content->permalink?>"><img src="/images/facebook.png" alt="Facebook Share"></a>
       <a href="https://plus.google.com/share?url=<?=$server.$cms_content->permalink?>"><img src="/images/google.png" alt="G+ Share"></a>
