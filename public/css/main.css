@@ -119,8 +119,12 @@ pre.block{
   background:#81a5ff;
   padding:10px;
 }
-a{
+a,
+a:hover{
   color:#3b3b3b;
+}
+p a:hover{
+  text-decoration: underline;
 }
 p a.button{
   padding:10px;
