@@ -2,8 +2,8 @@
     <h1><?=$cms_content->title?></h1>
     <h4><?=\site\output_date($cms_content->date_start)?></h4>
     <div class="sharers">
-      <span><a href="http://www.youtube.com/watch?v=5Uu3kCEEc98#t=29">Cher:</a></span>
-      <a href="#"><img src="/images/twitter.png" alt="Twitter Share"></a>
+      <span><a href="http://www.youtube.com/watch?v=5Uu3kCEEc98#t=29">Share:</a></span>
+      <a href="http://twitter.com/share?text=<?=urlencode("Read about '".$cms_content->title."' here - ".$server.$cms_content->permalink)?>"><img src="/images/twitter.png" alt="Twitter Share"></a>
       <a href="#"><img src="/images/facebook.png" alt="Facebook Share"></a>
       <a href="#"><img src="/images/google.png" alt="G+ Share"></a>
       <a href="#"><img src="/images/linked.png" alt="LinkedIn Share"></a>
