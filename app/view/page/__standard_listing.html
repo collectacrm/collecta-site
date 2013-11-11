@@ -1,0 +1,15 @@
+<?if($cms_content->permalink == $set_by->permalink):?>
+  <div class="columns large-12 intro">
+    <h1><?=$set_by->title?></h1>
+    <?=$set_by->format_content()?>
+  </div>
+  <?if($children = $set_by->live_children() ):?>
+    <?foreach($children as $page):?>
+      <?=partial("page/__standard_page", array('cms_content'=>$page) )?>
+      <hr class='spliter'>
+    <?endforeach?>
+  <?endif?>
+
+<?else:?>
+  <?=partial("page/__standard_page", array('cms_content'=>$cms_content) )?>
+<?endif?>

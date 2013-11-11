@@ -6,11 +6,11 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Wax\Application as Wax;
 
-class Admin extends Wax {  
-  
+class Admin extends Wax {
+
   protected function route($request) {
     parent::route($request);
-    if(!defined("CONTENT_MODEL")) define("CONTENT_MODEL","WildfireContent");
+    if(!defined("CONTENT_MODEL")) define("CONTENT_MODEL","CContent");
     \WaxUrl::$autoload = true;
     \WaxUrl::map("admin/:controller", array());
     \WaxUrl::map("admin/:controller/:action", array());

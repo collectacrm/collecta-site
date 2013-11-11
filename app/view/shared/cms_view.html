@@ -1,0 +1,6 @@
+<?
+  $page_type_data = $cms_content->page_type_data();
+  if(!($page_type = $page_type_data["page_type"])) $page_type = "__standard_page";
+?>
+<!-- PT: <?=$page_type?> -->
+<?=partial("page/".$page_type, array("cms_content"=>$cms_content, 'content_id_stack'=>$content_id_stack, 'content_object_stack'=>$content_object_stack,"set_by"=>$page_type_data["set_by"]))?>
