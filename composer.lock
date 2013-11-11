@@ -161,12 +161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/phpwax.git",
-                "reference": "e3083414154b3acfd4b1b32da8ac85e4592bf8a0"
+                "reference": "4a46d1ca5f0b15892756c6bcce693cdd5ab8384f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/phpwax/zipball/e3083414154b3acfd4b1b32da8ac85e4592bf8a0",
-                "reference": "e3083414154b3acfd4b1b32da8ac85e4592bf8a0",
+                "url": "https://api.github.com/repos/phpwax/phpwax/zipball/4a46d1ca5f0b15892756c6bcce693cdd5ab8384f",
+                "reference": "4a46d1ca5f0b15892756c6bcce693cdd5ab8384f",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
                 }
             ],
             "description": "The Full Stack Version of the PHP Wax Framework",
-            "time": "2013-10-22 14:20:00"
+            "time": "2013-11-08 23:20:25"
         },
         {
             "name": "phpwax/stackapp",
@@ -218,12 +218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/stackapp.git",
-                "reference": "d17211d341cff08e1bfc9cf06c2bfba3ac2a6d64"
+                "reference": "0539e9716bf0d649ed89b126e93eebc7181fc8ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/d17211d341cff08e1bfc9cf06c2bfba3ac2a6d64",
-                "reference": "d17211d341cff08e1bfc9cf06c2bfba3ac2a6d64",
+                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/0539e9716bf0d649ed89b126e93eebc7181fc8ca",
+                "reference": "0539e9716bf0d649ed89b126e93eebc7181fc8ca",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
             ],
             "description": "PHP Wax Stack app",
             "homepage": "http://php-wax.com",
-            "time": "2013-11-04 16:30:35"
+            "time": "2013-11-08 23:32:53"
         },
         {
             "name": "phpwax/wildfire",
@@ -354,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.content.git",
-                "reference": "7083f02c121e06c8fc1bfa3918b0cee1c6ab4b28"
+                "reference": "2e0cb9c1b87e1a65bf7b8800c60a43762c06b2a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.content/zipball/7083f02c121e06c8fc1bfa3918b0cee1c6ab4b28",
-                "reference": "7083f02c121e06c8fc1bfa3918b0cee1c6ab4b28",
+                "url": "https://api.github.com/repos/phpwax/wildfire.content/zipball/2e0cb9c1b87e1a65bf7b8800c60a43762c06b2a1",
+                "reference": "2e0cb9c1b87e1a65bf7b8800c60a43762c06b2a1",
                 "shasum": ""
             },
             "type": "library",
@@ -383,7 +383,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-11-05 21:08:27"
+            "time": "2013-11-09 12:30:53"
         },
         {
             "name": "phpwax/wildfire.interface",
@@ -391,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.interface.git",
-                "reference": "e54fe4241aa2c0dad0d28fbd2477c7c808f8fe71"
+                "reference": "476fb8d6f4aaf730f6a87e01cd79e99eaa0f114c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.interface/zipball/e54fe4241aa2c0dad0d28fbd2477c7c808f8fe71",
-                "reference": "e54fe4241aa2c0dad0d28fbd2477c7c808f8fe71",
+                "url": "https://api.github.com/repos/phpwax/wildfire.interface/zipball/476fb8d6f4aaf730f6a87e01cd79e99eaa0f114c",
+                "reference": "476fb8d6f4aaf730f6a87e01cd79e99eaa0f114c",
                 "shasum": ""
             },
             "type": "library",
@@ -419,7 +419,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-11-05 18:56:13"
+            "time": "2013-11-09 22:52:41"
         },
         {
             "name": "phpwax/wildfire.media",
@@ -427,12 +427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.media.git",
-                "reference": "9b167b85ef36a1f058e7c3e434c0e5ad0c7547cc"
+                "reference": "f5d373a2f946cde7e3aa9301d6962b29fc529e29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.media/zipball/9b167b85ef36a1f058e7c3e434c0e5ad0c7547cc",
-                "reference": "9b167b85ef36a1f058e7c3e434c0e5ad0c7547cc",
+                "url": "https://api.github.com/repos/phpwax/wildfire.media/zipball/f5d373a2f946cde7e3aa9301d6962b29fc529e29",
+                "reference": "f5d373a2f946cde7e3aa9301d6962b29fc529e29",
                 "shasum": ""
             },
             "require": {
@@ -458,7 +458,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-11-06 08:28:39"
+            "time": "2013-11-08 17:30:28"
         },
         {
             "name": "phpwax/wildfire.meta",
@@ -535,12 +535,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/wildfire.redirects.git",
-                "reference": "2a4c4e014fa590653bc358c039c8d239b4b9eb5b"
+                "reference": "2bba4b2c4b57dcd3bb5396ff8fca84971f4700f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/wildfire.redirects/zipball/2a4c4e014fa590653bc358c039c8d239b4b9eb5b",
-                "reference": "2a4c4e014fa590653bc358c039c8d239b4b9eb5b",
+                "url": "https://api.github.com/repos/phpwax/wildfire.redirects/zipball/2bba4b2c4b57dcd3bb5396ff8fca84971f4700f9",
+                "reference": "2bba4b2c4b57dcd3bb5396ff8fca84971f4700f9",
                 "shasum": ""
             },
             "type": "library",
@@ -563,7 +563,7 @@
                     "email": "charles@oneblackbear.com"
                 }
             ],
-            "time": "2013-06-20 14:31:11"
+            "time": "2013-11-06 10:34:45"
         },
         {
             "name": "psr/log",
@@ -819,12 +819,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307"
+                "reference": "796619f49371629db8f5ef5ce82f2f52e4fdfd9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/1bee3412d9ff603a9ed1cce305c0becbd735c307",
-                "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/796619f49371629db8f5ef5ce82f2f52e4fdfd9d",
+                "reference": "796619f49371629db8f5ef5ce82f2f52e4fdfd9d",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +860,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-30 08:28:22"
+            "time": "2013-11-04 06:09:51"
         },
         {
             "name": "symfony/http-kernel",
