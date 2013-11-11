@@ -22,6 +22,7 @@
 
     "autoload": {
       "psr-0": { "": "./src/" },
+      "classmap": ["app/model", "app/controller"],
       "files": [
         "src/site/sitehelper.php"
       ]
