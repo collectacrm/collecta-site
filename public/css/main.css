@@ -167,3 +167,45 @@ a.button .action{
   margin-top:8px;
   min-width: 100px;
 }
+
+
+/**** RESPONSIVE *****/
+@media only screen and (max-width: 767px){
+  .row .row{
+    margin:0;
+  }
+  .columns{
+    float:none;
+    width:100%;
+    margin-bottom:10px;
+    padding:0 2%;
+  }
+  .nav{
+    margin-top:20px;
+  }
+  .page_meta{
+    text-align: left;
+  }
+
+  .footer_wrapper{
+    position: relative;
+  }
+
+  #signup p{
+    float:none;
+    width:100%;
+  }
+  #signup .text_input{
+    width:24%;
+  }
+}
+@media only screen and (max-width: 660px){
+  #signup{
+    padding-left:0;
+    background-image:none;
+  }
+  #signup .text_input{
+    width:62%;
+    margin-right:5%;
+  }
+}
