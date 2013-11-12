@@ -218,12 +218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/stackapp.git",
-                "reference": "19bc609a7c4c21c7e196513cf85de4c42b70dad6"
+                "reference": "8ed145c22f43013216411f89df9243bc68760395"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/19bc609a7c4c21c7e196513cf85de4c42b70dad6",
-                "reference": "19bc609a7c4c21c7e196513cf85de4c42b70dad6",
+                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/8ed145c22f43013216411f89df9243bc68760395",
+                "reference": "8ed145c22f43013216411f89df9243bc68760395",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
             ],
             "description": "PHP Wax Stack app",
             "homepage": "http://php-wax.com",
-            "time": "2013-11-12 06:49:47"
+            "time": "2013-11-12 07:07:16"
         },
         {
             "name": "phpwax/wildfire",
