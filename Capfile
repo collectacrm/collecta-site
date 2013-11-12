@@ -3,7 +3,7 @@ load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 
 set :application,     "collecta"
 set :branch,          "master"
-set :remote,          "origin"
+set :remote,          "live"
 set :release_path,    "./site"
 
 
