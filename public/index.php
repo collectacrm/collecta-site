@@ -1,9 +1,7 @@
 <?php
 use Symfony\Component\HttpFoundation\Request;
-$env = $_SERVER["ENV"] ? $_SERVER["ENV"] : "production";
-require_once("../src/compat.php");
-
 require_once('../vendor/autoload.php');
+require_once("../src/compat.php");
 
 
 $config = ($base = dirname(__DIR__)."/")."app/config/config_".($env = $_SERVER["ENV"] ?: "production").".php";
