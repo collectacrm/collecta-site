@@ -10,7 +10,6 @@ class Admin extends Wax {
 
   protected function route($request) {
     parent::route($request);
-    if(!defined("CONTENT_MODEL")) define("CONTENT_MODEL","CContent");
     \WaxUrl::$autoload = true;
     \WaxUrl::map("admin/:controller", array());
     \WaxUrl::map("admin/:controller/:action", array());
