@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e1122275ff90a4de2f6da69052d9b5f5",
+    "hash": "4c59835f36d969ee683634c4cb804d4c",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -218,12 +218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpwax/stackapp.git",
-                "reference": "0539e9716bf0d649ed89b126e93eebc7181fc8ca"
+                "reference": "19bc609a7c4c21c7e196513cf85de4c42b70dad6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/0539e9716bf0d649ed89b126e93eebc7181fc8ca",
-                "reference": "0539e9716bf0d649ed89b126e93eebc7181fc8ca",
+                "url": "https://api.github.com/repos/phpwax/stackapp/zipball/19bc609a7c4c21c7e196513cf85de4c42b70dad6",
+                "reference": "19bc609a7c4c21c7e196513cf85de4c42b70dad6",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
             ],
             "description": "PHP Wax Stack app",
             "homepage": "http://php-wax.com",
-            "time": "2013-11-08 23:32:53"
+            "time": "2013-11-12 06:49:47"
         },
         {
             "name": "phpwax/wildfire",
