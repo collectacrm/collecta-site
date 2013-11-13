@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         dest: 'public/build/<%= gitinfo.local.branch.current.shortSHA %>/stylesheets/wildfire.css',
       },
       wildfiremedia_css: {
-        src: ['vendor/phpwax/wildfire.interface/assets/stylesheets/wildfire.media/**/*.css'],
+        src: ['vendor/phpwax/wildfire.media/assets/stylesheets/wildfire.media/**/*.css'],
         dest: 'public/build/<%= gitinfo.local.branch.current.shortSHA %>/stylesheets/wildfire.media.css',
       },
       wildfire_overwrites_css: {
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-gitinfo');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  
-  
+
+
   grunt.registerTask('default', ['clean','gitinfo','concat']);
 }
